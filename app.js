@@ -45,3 +45,11 @@ async function checkWeather(city){
 searchBtn.addEventListener("click" , ()=>{
 checkWeather(searchBox.value)
 })
+
+
+
+    function t() {
+        document.getElementById('time').innerHTML = new Date();
+    }
+    t();
+    window.setInterval(t, 1000);

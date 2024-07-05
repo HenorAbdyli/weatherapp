@@ -77,16 +77,24 @@ body{
     text-align: left;
 }
 .col img{
-    
+    width: 40px;
     margin-right: 10px;
 }
 .humidity , .wind  {
-    font-size: 28px;
+    font-size: 18px;
     margin-top: -6px;
 }
 .weather{
-    display: none;
+    /* display: none; */
 }
 .error{
     display: none;
+}
+#time{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 30px;
+    
+    color: #bbb;
+
 }
